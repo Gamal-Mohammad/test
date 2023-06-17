@@ -18,8 +18,3 @@ docker build -t java-img1
 ```sh
 docker run --name java-app1 --rm -i  java-img1
 ```
-### YouTube Explaination
- https://youtu.be/vHCP4dANMpo
-    
-  
-
