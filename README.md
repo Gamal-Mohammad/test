@@ -14,7 +14,7 @@ CMD ["java", "Main"]
 ```sh
 docker build -t java-img1 .
 ```
-### Run Container 
+### Run Container App
 ```sh
 docker run --name java-app1 --rm -i  java-img1 
 ```
