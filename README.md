@@ -16,5 +16,5 @@ docker build -t java-img1
 ```
 ### Run Container 
 ```sh
-docker run --name java-app1 --rm -i  java-img1
+docker run --name java-app1 --rm -i  java-img1 .
 ```
