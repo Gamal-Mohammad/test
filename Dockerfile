@@ -1,4 +1,4 @@
-FROM docker.io/library/openjdk
+FROM docker.io/library/openjdk:11
 COPY . /usr/src/myapp
 WORKDIR /usr/src/myapp/src
 RUN javac Main.java
